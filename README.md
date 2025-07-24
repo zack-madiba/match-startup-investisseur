@@ -23,7 +23,7 @@ L'objectif est normaliser les données pour une meilleure analyse des interactio
 * Les typologies d'investisseurs les plus engagés
 * Les startups les plus sollicitées ou en situation de blocage.
 
- **Note** : Ci-dessous l'url de telechargement des données brutes
+ **Note** : Ci-après l'url de telechargement des données brutes
  `URL ="https://docs.google.com/spreadsheets/d/1-ozQDxIBwo-XhgNrfqDZaPwlN9j88c8E/export?format=xlsx&id=1-ozQDxIBwo-XhgNrfqDZaPwlN9j88c8E"`
 
 ### **3. Description des données** :
