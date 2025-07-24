@@ -141,5 +141,5 @@ L'objectif est normaliser les données pour une meilleure analyse des interactio
 ## III - Technologies à utiliser
 
 * Python
-* SQL
+* SQLite
 * Power BI
