@@ -1,0 +1,41 @@
+# Ignorer la base de données
+match.db
+
+# Ignorer les fichiers PDF
+*.pdf
+
+# (optionnel) Ignorer les fichiers temporaires ou systèmes
+.DS_Store
+Thumbs.db
+
+# (optionnel) Ignorer les fichiers Python inutiles
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorer le dossier .history (ex: utilisé par certains éditeurs comme VS Code)
+.history/
+
+# (optionnel) Fichiers d’environnement virtuel Python
+.env
+venv/
+
+# ignorer les fichier .sql
+*.sql
+
+# Ignorer les fichier CSV
+*.csv
+
+# Ignorer les fichiers de configuration spécifiques
+*.conf
+*.json
+
+# Ignorer les fichiers de log
+*.log
+
+# Ignorer les fichiers jupyternotebook
+*.ipynb
+
+# Ignorer les fichiers de configuration de l'éditeur
+.vscode/
