@@ -11,6 +11,7 @@ import sqlite3
 import time
 import requests
 from io import BytesIO
+import sys
 from IPython.display import display
 
 
@@ -393,6 +394,26 @@ def main(url, save_path="data.csv", db_path="match.db"):
     print(f"Fichier nettoyé : clean_data.csv")
     print(f"🗄Base de données : {db_path}")
     print(f"Nombre de lignes traitées : {len(df_cleaned)}")
+ 
+
+    def animation_succes():
+        chargement = ["[    ]", "[=   ]", "[==  ]", "[=== ]", "[====]", "[ ✔ ]"]
+        message = "Traitement en cours"
+
+        # Animation de chargement
+        for frame in chargement[:-1]:
+            sys.stdout.write(f"\r{message} {frame}")
+            sys.stdout.flush()
+            time.sleep(0.3)
+
+        # Succès
+        sys.stdout.write(f"\r{message} {chargement[-1]}  Succès !\n")
+        sys.stdout.flush()
+
+    # Lancer l'animation
+    if __name__ == "__main__":
+        animation_succes()
+
     
     return df_cleaned
 
@@ -417,4 +438,8 @@ if __name__ == "__main__":
         
         
 
-print("-" * 30) 
+print("-" * 30)
+
+
+
+
